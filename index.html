@@ -18,15 +18,39 @@
 
 <body>
   <div class="main-container">
-    <header>
-      <img src="../booki-starter-code/images/logo/Booki.png" alt="Logo Booki">
+    <header class="header">
+      <img src="../booki-starter-code/images/logo/Booki.png" alt="Logo Booki" id="logo">
+      <div class="redirect">
+        <a href="#hebergement">Hébergements</a>
+        <!-- la balise anchor permet de se rendre directement au sujet concerné avec le href -->
+        <a href="#activite">Activités</a>
+      </div>
     </header>
-    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <br>
+    <div class="info-group">
+    <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
       <main>
         <p>En plein centre-ville ou en pleine nature</p>
+          <form class="search-bar">  
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="search" name="q">
+            <button>Rechercher</button>
+          </form>
+          <ul class="filters">Filtres
+            <li>Économique</li>
+            <li>Familiale</li>
+            <li>Romantique</li>
+            <li>Nos pépites</li>
+          </ul>
+        </div>
   <div class="hebergements-and-populaires">
-  <section class="hebergements">
+  <section class="hebergements" id="hebergement">
+    <div class="hebergements-title">
+      <h2 class="section-title">Hébergements à Marseille</h2>
+    </div>
+    <div class="hebergements-cards">
 
+    </div>
   </section>
   <section class="populaires">
     <div class="populaires-title">
@@ -94,9 +118,10 @@
 </div>
 </section>
 </div>
+<br>
+<br>
 </main>
 <footer></footer>
 </div>
 </body>
-
 </html>
