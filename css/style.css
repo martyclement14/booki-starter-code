@@ -48,8 +48,6 @@ header {
 
 .main-container {
   padding: 0px 50px 58px 50px;
-  width: 100%;
-  max-width: 1440px;
   height: auto;
 }
 
@@ -432,7 +430,7 @@ footer {
   }
 
   .activity-cards img {
-    height: 200px;
+    height: 180px;
   }
 }
 
