@@ -384,6 +384,11 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .main-container {
+    width: auto;
+    padding: 0px 50px 58px 50px;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -496,6 +501,13 @@ footer {
   .filters ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filters li {
+    max-width: 40%;
+    display: flex;
+    flex-basis: 35%;
   }
 
   .hebergements-and-populaires {
