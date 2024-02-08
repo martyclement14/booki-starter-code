@@ -341,6 +341,7 @@ a {
   display: flex;
   flex-direction: row;
   padding: 0px;
+  height: 100%;
 }
 
 .activity-cards .card-title {
@@ -429,6 +430,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .activity-cards img {
+    height: 200px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -487,6 +492,7 @@ footer {
     color: white;
     background-color: #0065fc;
     flex-grow: 1;
+    box-shadow: 0px 5px 10px -1px rgba(0, 0, 0, 0.3);
   }
 
   #search-text {
@@ -539,7 +545,7 @@ footer {
   .hebergements {
     width: 100%;
     order: 1;
-    background-color: white;
+    background-color: white !important;
   }
 
   .hebergements-cards {
