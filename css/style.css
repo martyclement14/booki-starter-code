@@ -104,7 +104,7 @@ header {
   display: none;
 }
 
-.filters ul {
+.filters p {
   display: flex;
   align-items: center;
   margin: 0px;
@@ -528,12 +528,12 @@ footer {
     width: 100%;
     order: 0;
     padding: 30px 20px;
+  }
 
-    .populaires-cards {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .populaires-cards a {
